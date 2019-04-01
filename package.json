@@ -2,13 +2,17 @@
   "name": "@counterfactual/truffle-box",
   "version": "0.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "truffle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
